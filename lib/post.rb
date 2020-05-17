@@ -21,13 +21,8 @@ class Post
   end
 
   def author_name
-    # binding.pry 
-    if author == nil
-        return nil
-    else
-    @author.name
+    author == nil ? nil : @author.name
   end
-end
 
 
 end
